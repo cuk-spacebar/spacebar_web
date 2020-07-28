@@ -23,7 +23,7 @@ $(() => {
   $('a[href*="#"]').on("click", function (e) {
     $("html,body").animate(
       {
-        scrollTop: $($(this).attr("href")).offset().top - 100
+        scrollTop: $($(this).attr("href")).offset().top - 70
       },
       500
     );

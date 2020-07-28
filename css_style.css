@@ -49,7 +49,7 @@ header {
 nav {
   font-family: "spacefont14",sans-serif;
   width: 100vw;
-  height: 160px;
+  height: 140px;
   background: #fff;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -60,7 +60,7 @@ nav {
 }
 nav.navShadow {
   box-shadow: 0 4px 30px -5px rgba(0, 0, 0, 0.2);
-  height: 100px;
+  height: 70px;
 }
 nav.navShadow #word-mark {
   opacity: 0;
@@ -277,13 +277,84 @@ section:nth-child(even) {
 }
 
 #section2_text{
+  margin-top: 270px;
+  width: 100%;
+  margin-bottom: 80px;
+  border:0px solid #00264B;
+}
+
+#img_modeling{
+  border-radius: 0 20px 20px 0;
+  height: calc(100vh - 300px);
+  width: 700px;
+  box-shadow: 4px 4px 20px gray;
+}
+
+#section2_textbox{
+  float: left;
+  margin-top: 130px;
+  width: 400px;
+  padding-left: 70px;
+  margin-bottom: 300px;
+}
+
+#img_box{
+  float: left;
+}
+
+.text_box_name{
+  font-family: "spacefont14",sans-serif;
+  font-size: 26px;
+  color: #000;
+}
+
+.text_box_text{
+  font-family: "spacefont11",sans-serif;
+  font-size: 18px;
+  color: #00264B;
+}
+
+#img_hi{
+  width: 300px;
+}
+
+#img_hi_box{
+  float: right;
+}
+
+#section2_textbox2{
+  float: right;
+  margin-top: 130px;
+  width: 400px;
+  padding-right: 70px;
+  text-align: right;
+}
+
+#img_box2{
+  float: right;
+}
+
+#img_hi_box2{
+  float: left;
+}
+
+#img_modeling2{
+  border-radius: 20px 0px 0px 20px;
+  height: calc(100vh - 300px);
+  width: 700px;
+  box-shadow: 4px 4px 20px gray;
+}
+/*
+#section2_text{
   font-family: "spacefont11",sans-serif;
   padding: 80px;
   margin-top: 270px;
   width: calc(100vw - 25%);
-  text-align: center;
+  text-align: left;
   border:1px solid #00264B;
 }
+*/
+
 
 .playnumber{
   font-family: "spacefont14",sans-serif;
