@@ -9,6 +9,16 @@
   src:url("ago10.ttf") format("truetype");
 }
 
+@font-face {
+  font-family: "spacefont12";
+  src:url("ago12.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "spacefont11";
+  src:url("ago11.ttf") format("truetype");
+}
+
 * {  
   box-sizing: border-box;
   margin: 0;
@@ -267,7 +277,7 @@ section:nth-child(even) {
 }
 
 #section2_text{
-  font-family: "spacefont10",sans-serif;
+  font-family: "spacefont11",sans-serif;
   padding: 80px;
   margin-top: 270px;
   width: calc(100vw - 25%);
@@ -283,10 +293,11 @@ section:nth-child(even) {
 }
 
 .playcontents{
-  font-family: "spacefont10",sans-serif;
+  font-family: "spacefont12",sans-serif;
   color: #00264B;
   text-align: center;
   padding: 5px;
+  font-size: 15px;
   margin-top: 10px;
   border: 1px solid #00264B;
   border-radius: 50px;
