@@ -5,6 +5,11 @@
 }
 
 @font-face {
+  font-family: "spacefont16";
+  src:url("ago16.ttf") format("truetype");
+}
+
+@font-face {
   font-family: "spacefont10";
   src:url("ago10.ttf") format("truetype");
 }
@@ -357,4 +362,35 @@ margin: 10px;
             transform: scale(0.8);
   }
 }
+
+#tb_corevalue{
+  margin-top: 120px;
+  text-align: center; 
+  color: #00264b ; 
+  font-family: "spacefont12",sans-serif;
+
+}
+td, th{
+  width: 290px;
+  padding: 10px;
+}
+#tr_corevalue_center{
+  font-size: 30px;
+  font-family: "spacefont16",sans-serif;
+
+}
+#tr_specail{
+  font-size: 30px;
+  color: #ffffff ; 
+}
+#tr_size20{
+  font-size: 20px;
+}
+#fuxx{
+  background-image: url("fuxx.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 400px 88px;
+}
+
 
