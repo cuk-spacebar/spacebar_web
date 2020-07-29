@@ -22,8 +22,6 @@
   src:url("ago19.ttf") format("truetype");
 }
 
-
-
 @font-face {
   font-family: "spacefont10";
   src:url("ago10.ttf") format("truetype");
@@ -449,6 +447,33 @@ margin: 10px;
   }
 }
 
+#tb_corevalue{
+  margin-top: 120px;
+  text-align: center; 
+  color: #00264b; 
+  font-family: "spacefont12",sans-serif;
+}
+td, th{
+  width: 290px;
+  padding: 10px;
+}
+#tr_corevalue_center{
+  font-size: 30px;
+  font-family: "spacefont16",sans-serif;
+}
+#tr_specail{
+  font-size: 30px;
+  color: #ffffff; 
+}
+#tr_size20{
+  font-size: 20px;
+}
+#fuxx{
+  background-image: url("fuxx.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 400px 88px;
+}
 
 
 /* back-to-top button*/
@@ -532,7 +557,6 @@ button.back-to-top.show:active {
   border-left:none
   border-top:none
   border-bottom:none
-
   margin-left: auto;
   margin-right: auto;
   margin-top: 100px;
@@ -561,7 +585,6 @@ button.back-to-top.show:active {
   vertical-align: bottom;
   line-height: 140%;
   padding-left: 20px;
-
 }
 
 .sProductText3{
@@ -575,13 +598,10 @@ button.back-to-top.show:active {
   line-height: 140%;
   padding-top: 20px;
   padding-left: 20px;
-
-
 }
 .sProductImg{
   padding-top: 20px;
   padding-left: 20px;
   padding-bottom: 20px;
   padding-right: 20px;
-
 }
