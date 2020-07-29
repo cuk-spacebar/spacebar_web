@@ -13,6 +13,21 @@
 }
 
 @font-face {
+<<<<<<< HEAD
+=======
+  font-family: "spacefont18";
+  src:url("ago18.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "spacefont19";
+  src:url("ago19.ttf") format("truetype");
+}
+
+
+
+@font-face {
+>>>>>>> JooYoungEom
   font-family: "spacefont10";
   src:url("ago10.ttf") format("truetype");
 }
@@ -541,18 +556,6 @@ button.back-to-top.show:active {
 
 } 
 
-.productText1{
-  font-size: 16px;
-  margin-left: 15%;
-  margin-top: 80px;
-  height: 20px;
-  align-content: left;
-  font-family: "spacefont14",sans-serif;
-  color: #00264B;
-  vertical-align: center;
-  padding-bottom: 45px;
-  font-weight: bold;
-}
 
 .sojutable{
   border-right:none
@@ -567,13 +570,14 @@ button.back-to-top.show:active {
 
 .sProductText1{
   font-family: "spacefont14",sans-serif;
-  color: #00264B; 
+  color: #000000; 
   font-weight: bolder;
   align-content: right;
   text-align: right;
-  font-size: 50px;
+  font-size: 35px;
   vertical-align: top;
   padding-top: 20px;
+  padding-right: 20px;
 }
 
 .sProductText2{
