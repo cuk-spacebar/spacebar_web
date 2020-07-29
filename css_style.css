@@ -493,7 +493,7 @@ button.back-to-top.show:active {
   box-shadow: 0px 4px 8px 2px rgba(0, 0, 0, 0.25);
   -webkit-box-shadow: 0px 4px 8px 2px rgba(0, 0, 0, 0.25);
   -moz-box-shadow: 0px 4px 8px 2px rgba(0, 0, 0, 0.25);
-
+}
 
 .SPRODUCT1{
   font-size: 40px;
@@ -522,9 +522,7 @@ button.back-to-top.show:active {
   font-weight: bold;
 }
 
-
 table{
-
   border-right:none
   border-left:none
   border-top:none
@@ -532,7 +530,8 @@ table{
 
   margin-left: auto;
   margin-right: auto;
-  margin-top: 80px;
+  margin-top: 100px;
+  table-layout: fixed;
 }
 
 .sProductText1{
@@ -554,7 +553,8 @@ table{
   text-align: left;
   font-size: 25px;
   vertical-align: bottom;
-  line-height: 140%
+  line-height: 140%;
+  padding-left: 5px;
 
 }
 
@@ -568,6 +568,7 @@ table{
   vertical-align: top;
   line-height: 140%;
   padding-top: 20px;
+  padding-left: 5px;
 
 
 }
