@@ -1,4 +1,24 @@
 $(() => {
+ 
+// Back to top
+var amountScrolled = 200;
+var amountScrolledNav = 25;
+
+$(window).scroll(function() {
+  if ( $(window).scrollTop() > amountScrolled ) {
+    $('button.back-to-top').addClass('show');
+  } else {
+    $('button.back-to-top').removeClass('show');
+  }
+});
+
+$('button.back-to-top').click(function() {
+  $('html, body').animate({
+    scrollTop: 0
+  }, 800);
+  return false;
+});
+
 
   //On Scroll Functionality
   $(window).scroll(() => {
@@ -23,7 +43,7 @@ $(() => {
   $('a[href*="#"]').on("click", function (e) {
     $("html,body").animate(
       {
-        scrollTop: $($(this).attr("href")).offset().top - 100
+        scrollTop: $($(this).attr("href")).offset().top - 70
       },
       500
     );
@@ -41,3 +61,7 @@ $(() => {
     });
   });
 });
+
+AOS.init({
+  duration: 2000,
+})
