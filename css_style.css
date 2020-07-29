@@ -551,7 +551,16 @@ button.back-to-top.show:active {
 
 } 
 
-
+.sojutexttable{
+  border-right:none
+  border-left:none
+  border-top:none
+  border-bottom:none
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  table-layout: fixed;
+}
 .sojutable{
   border-right:none
   border-left:none
