@@ -53,6 +53,10 @@ body {
   overflow-y: scroll;
 }
 
+footer{
+  font-family: "spacefont11",sans-serif;
+  font-size: 15px;
+}
 /*** Color Variables ***/
 /*** Centering Hack ***/
 /*** Header Styles ***/
@@ -146,7 +150,7 @@ ul {
 }
 li {
   margin-left: 40px;
-  font-family: "spacefont14",sans-serif;
+  font-family: "spacefont16",sans-serif;
 }
 li a {
   text-align: center;
@@ -310,6 +314,19 @@ section:nth-child(even) {
   border-bottom: 4px solid #00264B;
 }
 
+.playname3{
+  width: auto;
+  height: 20px;
+  font-family: "spacefont14",sans-serif;
+  color: #00264B;
+  text-align: center;
+  vertical-align: center;
+  padding-bottom: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-bottom: 4px solid #00264B;
+}
+
 #section2_text{
   margin-top:190px;
   width: 100%;
@@ -322,18 +339,26 @@ section:nth-child(even) {
   height: auto;
   width: 100%;
   margin-bottom: 80px;
-  border:0px solid #00264B;
   background-color: #00264B;
 }
 
 #section2_text3{
   display: inline-block;
   width: 100%;
+  height: auto;
   margin-bottom: 80px;
   border:0px solid #00264B;
   background-color: #fff;
 }
 
+#section2_text4{
+  clear: both;
+  display: inline-block;
+  height: auto;
+  width: 100%;
+  margin-bottom: 80px;
+  background-color: #fff;
+}
 
 #img_modeling{
   border-radius: 0 20px 20px 0;
@@ -354,6 +379,13 @@ section:nth-child(even) {
   float: left;
 }
 
+#img_box3{
+  align-items: center;
+  text-align: center;
+  background-color: #fff;
+  margin-bottom: 100px;
+}
+
 .text_box_name{
   font-family: "spacefont16",sans-serif;
   font-size: 26px;
@@ -364,8 +396,7 @@ section:nth-child(even) {
   font-family: "spacefont12",sans-serif;
   font-size: 20px;
   color: #00264B;
-  line-height: 200%
-
+  line-height: 200%;
 }
 
 #img_hi{
@@ -434,11 +465,12 @@ section:nth-child(even) {
 }
 
 .playcontents2{
-  font-family: "spacefont14",sans-serif;
+  font-family: "spacefont12",sans-serif;
   color: #fff;
   width: 120px;
   padding: 5px;
-  font-size: 26px;
+  margin-top: 5px;
+  font-size: 15px;
   margin-bottom: 10px;
   border: 1px solid #fff;
   border-radius: 50px;
@@ -512,8 +544,8 @@ section:nth-child(even) {
   font-family: "spacefont12",sans-serif;
   table-layout: fixed;
   width: 100%; 
-  padding-left: 30px; 
-  padding-right: 30px; 
+  padding-left: 200px; 
+  padding-right: 200px; 
 }
 
 td, th{
@@ -524,6 +556,11 @@ td, th{
 #tr_corevalue_center{
   font-size: 30px;
   font-family: "spacefont16",sans-serif;
+  background-image: url("halfgrey.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 250px 100px;
+
 }
 
 #vision{
@@ -545,12 +582,14 @@ td, th{
   background-position: center center;
   background-repeat: no-repeat;
   background-size: 400px 88px;
+  font-family: "spacefont16",sans-serif;
+
 }
 
 #tb_vision{
   font-family: "spacefont12",sans-serif;
   table-layout: fixed;
-  background-image: url("visionback2.png");
+  background-image: url("visionback.png");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: 1500px 750px;
@@ -565,6 +604,10 @@ td, th{
   color: #ffffff;
   width: 600px;
   height: 130px;
+  
+}
+#space_bar0{
+  font-family: "spacefont16",sans-serif;
 }
 
 #tb_trash{
@@ -597,6 +640,7 @@ width: 600px;
   padding-left: 140px;
   color: #ffffff;
   font-size: 20px;
+  padding-bottom: 70px;
 }
 
 #v_white_color1{
@@ -608,7 +652,7 @@ width: 600px;
 }
 
 #v_blue_color{
-  padding-bottom: 40px;
+  padding-top: 10px;
   padding-right: 30px;
   color: #00264b;
   font-size: 20px;
@@ -629,25 +673,6 @@ width: 600px;
   vertical-align:middle;
   color: #00264B;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* back-to-top button*/
 #content {
