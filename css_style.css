@@ -355,15 +355,17 @@ section:nth-child(even) {
 }
 
 .text_box_name{
-  font-family: "spacefont14",sans-serif;
+  font-family: "spacefont16",sans-serif;
   font-size: 26px;
   color: #000;
 }
 
 .text_box_text{
-  font-family: "spacefont11",sans-serif;
-  font-size: 18px;
+  font-family: "spacefont12",sans-serif;
+  font-size: 20px;
   color: #00264B;
+  line-height: 200%
+
 }
 
 #img_hi{
@@ -548,7 +550,7 @@ td, th{
 #tb_vision{
   font-family: "spacefont12",sans-serif;
   table-layout: fixed;
-  background-image: url("visionback1.jpg");
+  background-image: url("visionback2.png");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: 1500px 750px;
@@ -559,7 +561,7 @@ td, th{
   padding-left: 140px;
   padding-top: 40px;
   font-size: 35px;
-  font-family: "spacefont16",sans-serif;
+  font-family: "spacefont18",sans-serif;
   color: #ffffff;
   width: 600px;
   height: 130px;
@@ -574,7 +576,7 @@ width: 600px;
 }
 
 #onlymission{
-  font-family: "spacefont16",sans-serif;
+  font-family: "spacefont18",sans-serif;
   color: #00264b;
   font-size: 35px;
   padding-right: 30px;
@@ -756,9 +758,9 @@ button.back-to-top.show:active {
 }
 
 .sProductText1{
-  font-family: "spacefont14",sans-serif;
+  font-family: "spacefont16",sans-serif;
   color: #000000; 
-  font-weight: bolder;
+  font-weight: bold;
   align-content: right;
   text-align: right;
   font-size: 35px;
