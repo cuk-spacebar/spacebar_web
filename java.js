@@ -62,6 +62,16 @@ $('button.back-to-top').click(function() {
   });
 });
 
+<<<<<<< HEAD
 AOS.init({
   duration: 2000,
 })
+=======
+
+
+
+
+
+
+
+>>>>>>> seunghoon

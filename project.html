@@ -4,6 +4,8 @@
 <!DOCTYPE html>
 
 <html>
+
+
 <head>
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
@@ -34,12 +36,64 @@
       </ul>
     </div>
   </nav>
+
+
+
   <div id="hero-section">
-    <div id="head-line"></div>
+    <div style="text-align : center; ">
+      <style>
+        *{margin:0;padding:0;}
+        ul,li{list-style:none;}
+        #slide{height:100%;position:center;overflow:hidden;}
+        #slide ul{width:300%;height:100%;transition:1s;}
+        #slide ul:after{content:"";display:block;clear:both;}
+        #slide li{float:left;width:100%;height:100%;}
+        #slide li:nth-child(1){background:#00264B;}
+        #slide li:nth-child(2){background:white;}
+        #slide li:nth-child(3){background:white;}
+
+        #slide input{display:none;}
+        #slide label{display:inline-block;vertical-align:middle;width:15px;height:15px;border:2px solid #666;background:#fff;transition:0.3s;border-radius:50%;cursor:pointer;}
+        #slide .pos{text-align:center;position:absolute;bottom:10px;left:0;width:100%;text-align:center;}
+        #pos1:checked~ul{margin-left:0%;}
+        #pos2:checked~ul{margin-left:-100%;}
+        #pos3:checked~ul{margin-left:-200%;}
+
+        #pos1:checked~.pos>label:nth-child(1){background:#666;}
+        #pos2:checked~.pos>label:nth-child(2){background:#666;}
+        #pos3:checked~.pos>label:nth-child(3){background:#666;}
+       
+      </style>
+
+      <div id="slide">
+        <input type="radio" name="pos" id="pos1" checked>
+        <input type="radio" name="pos" id="pos2">
+        <input type="radio" name="pos" id="pos3">
+      
+        <ul>
+          <li><img src="homeimage.jpg" height="100%"></li>
+          <li><img src="homesoju.jpg"  height="100%"></li>
+          <li><img src="homebeer.png"  height="100%"></li>
+         
+        </ul>
+        <p class="pos">
+          <label for="pos1"></label>
+          <label for="pos2"></label>
+          <label for="pos3"></label>
+          
+        </p>
+      </div>
+      
+    </div>
   </div>
+  
+
+
+  
 </header>
 
 <body>  
+<<<<<<< HEAD
 <section id="section00">
  <div class="verticalTable" >
     <div class="verticalInnerTable" >
@@ -60,6 +114,24 @@
           <p style="font-size: 15px; font-weight: normal;">원터치 자동 토출 디스펜서<br>아두이노로 만들었고<br>이래서 개짱이고<br> 저래서 개짱이다<br>나코 예쁘다</p>
           </td>
       </table>
+=======
+<section id="section00" >
+  <table class="sojutable"  width=100% height=1000>
+    <tr>
+      <td class="sProductText1"  width="33%" rowspan="2">
+      <p>DISPENSER</p>
+      <hr color="black" size="1">
+      <p style="font-size: 15px; font-weight: normal; color: black" >나를 위한 술 한잔이 채워지는<br><span style="background-color: #e0b18c">모든 순간을 특별하게</span> </p>
+      </td>
+      <td class="sProductImg" rowspan="2" width="33%"><img src="https://i.ibb.co/rQf1HxG/nako.jpg" width="500" height="1000"></td>
+      <td class="sProductText2" width="33%" height="50%"><br><br>Technology.
+      <p style="font-size: 15px; font-weight: normal;">원터치 자동 토출 디스펜서<br>아두이노로 만들었고<br>이래서 개짱이고<br> 저래서 개짱이다<br>나코 예쁘다</p>
+      </td>
+    </tr>
+    <tr>
+      <td class="sProductText3">Design</td>
+  </table>
+>>>>>>> seunghoon
 
       <table align="center" class="sojutexttable" width=100% height=600 >
         <tr align="center" style="vertical-align: bottom; padding-bottom: 20px">

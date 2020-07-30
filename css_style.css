@@ -2,6 +2,7 @@
 @import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,400");
 
+
 @font-face {
   font-family: "spacefont14";
   src:url("ago14.ttf") format("truetype");
@@ -212,7 +213,7 @@ li a:hover{
 
 /*** Hero Section Styles ***/
 #hero-section {
-  width: 100vw;
+  width: 100%;
   height: calc(100vh - 160px);
   display: -webkit-box;
   display: flex;
@@ -221,6 +222,13 @@ li a:hover{
   -webkit-box-align: center;
           align-items: center;
   margin-top: 160px;
+  margin-bottom: 10px;
+  
+}
+
+#topimagesection{
+  width:100%;
+  height: 
 }
 
 #head-line {
@@ -647,4 +655,15 @@ button.back-to-top.show:active {
   padding-left: 20px;
   padding-bottom: 20px;
   padding-right: 20px;
+<<<<<<< HEAD
 }
+=======
+
+}
+
+
+
+
+
+
+>>>>>>> seunghoon
