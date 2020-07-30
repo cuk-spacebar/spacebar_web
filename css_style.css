@@ -65,7 +65,7 @@ header {
 
 /*** Navigation Styles ***/
 nav {
-  font-family: "spacefont14",sans-serif;
+  font-family: "spacefont19",sans-serif;
   width: 100vw;
   height: 140px;
   background: #fff;
@@ -130,7 +130,7 @@ ul {
   font-size: 26px;
   color: #00264B;
   border-radius: 90px;
-  margin-left: 2px;
+  margin-left: 10px;
   opacity: 1;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -313,10 +313,19 @@ section:nth-child(even) {
 
 #section2_text2{
   display: inline-block;
+  height: auto;
   width: 100%;
   margin-bottom: 80px;
   border:0px solid #00264B;
   background-color: #00264B;
+}
+
+#section2_text3{
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 80px;
+  border:0px solid #00264B;
+  background-color: #fff;
 }
 
 
@@ -353,6 +362,12 @@ section:nth-child(even) {
 
 #img_hi{
   width: 300px;
+  padding-top: 50px;
+}
+
+#img_hi2{
+  width: 300px;
+  padding-top: 300px;
 }
 
 #img_hi_box{
@@ -393,7 +408,6 @@ section:nth-child(even) {
 .playnumber2{
   font-family: "spacefont14",sans-serif;
   color: #fff;
-  font-size: 26px;
   margin-top: 10px;
   align-items: flex-start;
   padding-top: 40px;
@@ -418,7 +432,7 @@ section:nth-child(even) {
   padding: 5px;
   font-size: 26px;
   margin-bottom: 10px;
-
+  border: 1px solid #fff;
   border-radius: 50px;
   align-items: center;
   text-align: center;
