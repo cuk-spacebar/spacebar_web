@@ -524,7 +524,7 @@ section:nth-child(even) {
     transition: all 0.3s 0.1s;
   }
   li:first-child, li:nth-child(2) {
-    margin-top: 80px;
+    margin-top: 80px;  
   }
 
   #head-line {
@@ -565,7 +565,6 @@ td, th{
 
 #vision{
   table-layout: fixed;
-
 }
 
 #tr_specail{
