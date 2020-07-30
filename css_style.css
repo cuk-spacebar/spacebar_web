@@ -228,7 +228,7 @@ li a:hover{
 
 #topimagesection{
   width:100%;
-  height: 
+  height: 100%;
 }
 
 #head-line {
@@ -273,7 +273,7 @@ section {
           justify-content: center;
 }
 section:nth-child(odd) {
-  background: #f2f2f2;
+  background: #fff;
 }
 section:nth-child(even) {
   background: #fff;
@@ -283,8 +283,6 @@ section:nth-child(even) {
 #heading {
   width: 120px;
   height: 20px;
-  background: #e0b18c;
-  border-radius: 90px;
   margin-top: 40px;
   text-align: center;
   position: absolute;
@@ -302,7 +300,6 @@ section:nth-child(even) {
 }
 
 .playname{
-  margin-top: 80px;
   width: 100%;
   height: 20px;
   font-family: "spacefont14",sans-serif;
@@ -314,7 +311,7 @@ section:nth-child(even) {
 }
 
 #section2_text{
-  margin-top: 270px;
+  margin-top:190px;
   width: 100%;
   margin-bottom: 80px;
   border:0px solid #00264B;
@@ -447,12 +444,10 @@ section:nth-child(even) {
   text-align: center;
 }
 
-
 .verticalline{
   text-align: center;
   margin: 10px;
 }
-
 
 /*** Responsive Menu For Smaller Device ***/
 @media screen and (max-width: 767px) {
@@ -514,6 +509,9 @@ section:nth-child(even) {
   color: #00264b; 
   font-family: "spacefont12",sans-serif;
   table-layout: fixed;
+  width: 100%; 
+  padding-left: 30px; 
+  padding-right: 30px; 
 }
 
 td, th{
@@ -546,8 +544,6 @@ td, th{
   background-repeat: no-repeat;
   background-size: 400px 88px;
 }
-
-
 
 #tb_vision{
   font-family: "spacefont12",sans-serif;
@@ -601,7 +597,6 @@ width: 600px;
   font-size: 20px;
 }
 
-
 #v_white_color1{
   padding-left: 140px;
   padding-bottom: 100px;
@@ -616,6 +611,41 @@ width: 600px;
   color: #00264b;
   font-size: 20px;
 }
+
+/* 프로젝트 스토리 css */
+.p_project_object{
+  font-family: spacefont18, sans-serif; 
+  font-size: 35px; 
+  line-height: 180%; 
+  color: #00264B;
+}
+
+.p_project_object_middle {
+  font-family: spacefont16, sans-serif; 
+  font-size: 20px; 
+  line-height: 180%; 
+  vertical-align:middle;
+  color: #00264B;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* back-to-top button*/
 #content {
@@ -702,6 +732,18 @@ button.back-to-top.show:active {
   margin-top: 100px;
   table-layout: fixed;
 }
+
+.ourservicetext{
+  border-right:none
+  border-left:none
+  border-top:none
+  border-bottom:none
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  table-layout: fixed;
+}
+
 .sojutable{
   border-right:none
   border-left:none
@@ -726,7 +768,7 @@ button.back-to-top.show:active {
 }
 
 .sProductText2{
-  font-family: "spacefont14",sans-serif;
+  font-family: "spacefont16",sans-serif;
   color: #00264B; 
   font-weight: bold;
   align-content: right;

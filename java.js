@@ -35,7 +35,7 @@ $('button.back-to-top').click(function() {
       {
         scrollTop: 0
       },
-      500
+      400
     );
   });
 
