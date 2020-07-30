@@ -146,7 +146,7 @@ ul {
 }
 li {
   margin-left: 40px;
-  font-family: "spacefont14",sans-serif;
+  font-family: "spacefont16",sans-serif;
 }
 li a {
   text-align: center;
@@ -310,6 +310,19 @@ section:nth-child(even) {
   border-bottom: 4px solid #00264B;
 }
 
+.playname3{
+  width: auto;
+  height: 20px;
+  font-family: "spacefont14",sans-serif;
+  color: #00264B;
+  text-align: center;
+  vertical-align: center;
+  padding-bottom: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-bottom: 4px solid #00264B;
+}
+
 #section2_text{
   margin-top:190px;
   width: 100%;
@@ -322,18 +335,26 @@ section:nth-child(even) {
   height: auto;
   width: 100%;
   margin-bottom: 80px;
-  border:0px solid #00264B;
   background-color: #00264B;
 }
 
 #section2_text3{
   display: inline-block;
   width: 100%;
+  height: auto;
   margin-bottom: 80px;
   border:0px solid #00264B;
   background-color: #fff;
 }
 
+#section2_text4{
+  clear: both;
+  display: inline-block;
+  height: auto;
+  width: 100%;
+  margin-bottom: 80px;
+  background-color: #fff;
+}
 
 #img_modeling{
   border-radius: 0 20px 20px 0;
@@ -352,6 +373,13 @@ section:nth-child(even) {
 
 #img_box{
   float: left;
+}
+
+#img_box3{
+  align-items: center;
+  text-align: center;
+  background-color: #fff;
+  margin-bottom: 100px;
 }
 
 .text_box_name{
@@ -432,11 +460,12 @@ section:nth-child(even) {
 }
 
 .playcontents2{
-  font-family: "spacefont14",sans-serif;
+  font-family: "spacefont12",sans-serif;
   color: #fff;
   width: 120px;
   padding: 5px;
-  font-size: 26px;
+  margin-top: 5px;
+  font-size: 15px;
   margin-bottom: 10px;
   border: 1px solid #fff;
   border-radius: 50px;
@@ -627,25 +656,6 @@ width: 600px;
   vertical-align:middle;
   color: #00264B;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* back-to-top button*/
 #content {
