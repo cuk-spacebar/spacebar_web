@@ -64,4 +64,8 @@ $('button.back-to-top').click(function() {
 
 AOS.init({
   duration: 2000,
+<<<<<<< HEAD
 })
+=======
+})
+>>>>>>> seunghoon
