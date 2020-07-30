@@ -543,8 +543,8 @@ section:nth-child(even) {
   font-family: "spacefont12",sans-serif;
   table-layout: fixed;
   width: 100%; 
-  padding-left: 30px; 
-  padding-right: 30px; 
+  padding-left: 200px; 
+  padding-right: 200px; 
 }
 
 td, th{
@@ -555,6 +555,11 @@ td, th{
 #tr_corevalue_center{
   font-size: 30px;
   font-family: "spacefont16",sans-serif;
+  background-image: url("halfgrey.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 250px 100px;
+
 }
 
 #vision{
@@ -576,12 +581,14 @@ td, th{
   background-position: center center;
   background-repeat: no-repeat;
   background-size: 400px 88px;
+  font-family: "spacefont16",sans-serif;
+
 }
 
 #tb_vision{
   font-family: "spacefont12",sans-serif;
   table-layout: fixed;
-  background-image: url("visionback1.jpg");
+  background-image: url("visionback.png");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: 1500px 750px;
@@ -596,6 +603,10 @@ td, th{
   color: #ffffff;
   width: 600px;
   height: 130px;
+  
+}
+#space_bar0{
+  font-family: "spacefont16",sans-serif;
 }
 
 #tb_trash{
@@ -628,6 +639,7 @@ width: 600px;
   padding-left: 140px;
   color: #ffffff;
   font-size: 20px;
+  padding-bottom: 70px
 }
 
 #v_white_color1{
@@ -639,7 +651,7 @@ width: 600px;
 }
 
 #v_blue_color{
-  padding-bottom: 40px;
+  padding-top: 10px;
   padding-right: 30px;
   color: #00264b;
   font-size: 20px;
