@@ -776,7 +776,7 @@ button.back-to-top.show:active {
   border-bottom:none
   margin-left: auto;
   margin-right: auto;
-  margin-top: 100px;
+  margin-top: 80px;
   table-layout: fixed;
 }
 
@@ -817,8 +817,9 @@ button.back-to-top.show:active {
   padding-left: 20px;
 }
 .sProductImg{
-  padding-top: 20px;
-  padding-left: 20px;
+  padding-top: 65px;
+  padding-left: 50px;
   padding-bottom: 20px;
   padding-right: 20px;
+  vertical-align: top;
 }
