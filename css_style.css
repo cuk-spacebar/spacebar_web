@@ -394,9 +394,8 @@ section:nth-child(even) {
 
 .text_box_text{
   font-family: "spacefont12",sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   color: #00264B;
-  line-height: 200%;
 }
 
 #img_hi{
@@ -660,8 +659,8 @@ width: 600px;
 
 /* 프로젝트 스토리 css */
 .p_project_object{
-  font-family: spacefont18, sans-serif; 
-  font-size: 35px; 
+  font-family: spacefont14, sans-serif; 
+  font-size: 25px; 
   line-height: 180%; 
   color: #00264B;
 }
