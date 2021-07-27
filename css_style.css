@@ -5,37 +5,37 @@
 
 @font-face {
   font-family: "spacefont14";
-  src:url("ago14.ttf") format("truetype");
+  src:url("font/ago14.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "spacefont16";
-  src:url("ago16.ttf") format("truetype");
+  src:url("font/ago16.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "spacefont18";
-  src:url("ago18.ttf") format("truetype");
+  src:url("font/ago18.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "spacefont19";
-  src:url("ago19.ttf") format("truetype");
+  src:url("font/ago19.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "spacefont10";
-  src:url("ago10.ttf") format("truetype");
+  src:url("font/ago10.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "spacefont12";
-  src:url("ago12.ttf") format("truetype");
+  src:url("font/ago12.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "spacefont11";
-  src:url("ago11.ttf") format("truetype");
+  src:url("font/ago11.ttf") format("truetype");
 }
 
 * {  
@@ -555,7 +555,7 @@ td, th{
 #tr_corevalue_center{
   font-size: 30px;
   font-family: "spacefont16",sans-serif;
-  background-image: url("halfgrey.png");
+  background-image: url("image/halfgrey.png");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: 250px 100px;
@@ -576,7 +576,7 @@ td, th{
 }
 
 #fuxx{
-  background-image: url("fuxx.png");
+  background-image: url("image/fuxx.png");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: 400px 88px;
@@ -587,7 +587,7 @@ td, th{
 #tb_vision{
   font-family: "spacefont12",sans-serif;
   table-layout: fixed;
-  background-image: url("visionback.png");
+  background-image: url("image/visionback.png");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: 1500px 750px;
